@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap3.SmartUI.Web", "ASPPatterns.Chap3.SmartUI.Web\ASPPatterns.Chap3.SmartUI.Web.csproj", "{0E7101A0-C295-47FF-95C3-A322A8ADF36F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap3.SmartUI.Web.Tests", "ASPPatterns.Chap3.SmartUI.Web.Tests\ASPPatterns.Chap3.SmartUI.Web.Tests.csproj", "{01033E8C-8E23-4120-9D66-36E84AEFF6DA}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E7101A0-C295-47FF-95C3-A322A8ADF36F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E7101A0-C295-47FF-95C3-A322A8ADF36F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E7101A0-C295-47FF-95C3-A322A8ADF36F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E7101A0-C295-47FF-95C3-A322A8ADF36F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01033E8C-8E23-4120-9D66-36E84AEFF6DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01033E8C-8E23-4120-9D66-36E84AEFF6DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01033E8C-8E23-4120-9D66-36E84AEFF6DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01033E8C-8E23-4120-9D66-36E84AEFF6DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
